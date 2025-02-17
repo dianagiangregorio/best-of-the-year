@@ -20,4 +20,8 @@ public class PageController {
         model.addAttribute("name", name);
         return "welcome";
     }
+
+    public String getBestMovies(){
+        return "movies"
+    }
 }
